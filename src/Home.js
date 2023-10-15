@@ -1006,7 +1006,7 @@ Promoting scientific knowledge and curiosity among students through science fair
             alt
           />
           <h4>President</h4>
-          <span>Mr. P. Mallikarjun</span>
+          <span className='des_text'>Mr. P. Mallikarjun</span>
         </div>
       </div>
       <div className="col-6 col-lg-3 d-flex flex-column align-items-stretch">
@@ -1016,7 +1016,7 @@ Promoting scientific knowledge and curiosity among students through science fair
             alt
           />
           <h4>Secretary</h4>
-          <span>Mr. L. Pawan Kumar</span>
+          <span className='des_text'>Mr. L. Pawan Kumar</span>
         </div>
       </div>
       <div className="col-6 col-lg-3 d-flex flex-column align-items-stretch">
@@ -1026,7 +1026,7 @@ Promoting scientific knowledge and curiosity among students through science fair
             alt
           />
           <h4>Treasurer</h4>
-          <span>Mr. K. Yaswanth</span>
+          <span className='des_text'>Mr. K. Yaswanth</span>
         </div>
       </div>
       <div className="col-6 col-lg-3 d-flex flex-column align-items-stretch">
@@ -1036,7 +1036,7 @@ Promoting scientific knowledge and curiosity among students through science fair
             alt
           />
           <h4>Co-ordinator</h4>
-          <span>Mr. K. Sai Kumar</span>
+          <span className='des_text'>Mr. K. Sai Kumar</span>
         </div>
       </div>
     </div>
