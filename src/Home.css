@@ -1761,6 +1761,9 @@ width: 80px;
 
 .containerhere{ display: flex; align-items: center; background: #eee; margin-top: 40px; margin-bottom: 40px; }
 .containerhere span{ position: relative; display: inline-block; flex-shrink: 0; padding: 8px 20px; background: #003A69; color: #fff; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
+.des_text{
+  font-size: 12px;
+}
 }
  
 
