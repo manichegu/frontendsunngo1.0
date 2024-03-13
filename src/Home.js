@@ -1349,7 +1349,12 @@ Promoting scientific knowledge and curiosity among students through science fair
         </div>
     </div>
 </div>
-
+<p className="f-copy text-center">
+        <i className="fa fa-code" aria-hidden="true"></i> Developed by{' '}
+        <a href="https://manichegu.onrender.com/" target="_blank">
+          ManiChegu & Team
+        </a>
+      </p>
 </section>
 
 
