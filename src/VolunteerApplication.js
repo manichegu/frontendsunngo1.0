@@ -814,7 +814,12 @@ export default function VolunteerApplication() {
         </div>
     </div>
 </div>
-
+<p className="f-copy text-center">
+        <i className="fa fa-code" aria-hidden="true"></i> Developed by{' '}
+        <a href="https://manichegu.onrender.com/" target="_blank">
+          ManiChegu & Team
+        </a>
+      </p>
 </section>
 
 
