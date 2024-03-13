@@ -468,8 +468,8 @@ const navbarStyle = {
     ))}
       
     </div>
-    <div className="carousel-inner">
-      <div className="carousel-item active">
+    <div className="carousel-inner" style={{backgroundColor:"goldenrod"}}>
+      <div className="carousel-item active py-2">
         <img
        
           src="./pictures/mainslide_updated.jpg"
@@ -482,7 +482,7 @@ const navbarStyle = {
         </div>
       </div>
       {data.slice().reverse().map((content, index) => (
-  <div className="carousel-item" key={index}>
+  <div className="carousel-item py-2" key={index}>
     <img
       src={`http://res.cloudinary.com/${process.env.REACT_APP_CLOUDNAME}/image/upload/${content.filechoosen}`}
       className="d-block w-100 "
@@ -623,7 +623,7 @@ Supporting financially disadvantaged students by covering their educational expe
           <div className="icon ">
           <img
           src="./pictures/SDG1.png"
-          className="d-block w-100 zoomm" 
+          className="d-block w-100 " 
           
           alt="..."
         />
@@ -917,8 +917,8 @@ Promoting scientific knowledge and curiosity among students through science fair
                 style={{ color: '#003A69', backgroundColor: '#fff' }}
               >
                 <h6 style={{ fontWeight: "bold" }}>Date :</h6>
-                <p className='loc_setter'>{moment(content.Timings).format('DD-MM-YY')}</p>
-                <p className='loc_setter'>{moment(content.Timings).format('HH:mm')}</p>
+                <p className='loc_setter'>{moment(content.Timings.slice(0,-5)).format('DD-MM-YY ')}</p>
+                <p className='loc_setter'>{moment(content.Timings.slice(0,-5)).format('hh-mm a')}</p>
               </div>
             </div>
             <div
