@@ -525,7 +525,7 @@ const navbarStyle = {
 
 <div className="containerhere scroll-right" xxx>
     <span style={{fontWeight:"bold"}}><span style={{ fontWeight: "bold", display: "none" }} className="d-lg-inline">New Articles </span><i class="fa fa-bullhorn mx-2" aria-hidden="true"></i></span>
-    <marquee className=" " behavior="" direction="right" style={{color:"red" ,fontWeight:"bold"}}>
+    <marquee className=" " behavior="" direction="left" style={{color:"red" ,fontWeight:"bold"}}>
       {marquee}
     </marquee>
   </div>
