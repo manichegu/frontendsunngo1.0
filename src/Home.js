@@ -604,7 +604,7 @@ const navbarStyle = {
           <div className="icon ">
           <img
           src="./pictures/SDG1.png"
-          className="d-block w-100 zoomm" 
+          className="d-block w-100 " 
           
           alt="..."
         />
@@ -647,7 +647,7 @@ Supporting financially disadvantaged students by covering their educational expe
           <div className="icon ">
           <img
           src="./pictures/SDG3.png"
-          className="d-block w-100 zoomm" 
+          className="d-block w-100 " 
           
           alt="..."
         />
@@ -668,7 +668,7 @@ Celebrating orphan children's birthdays and organizing medical camps in children
           <div className="icon ">
           <img
           src="./pictures/SDG4.png"
-          className="d-block w-100 zoomm" 
+          className="d-block w-100 " 
           
           alt="..."
         />
