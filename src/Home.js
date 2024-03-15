@@ -549,7 +549,7 @@ const navbarStyle = {
 
         <a
           className="video-btn d-flex align-items-center py-md-5"
-          href="https://youtu.be/RQu7jpcNUWI" target='_blank'
+          href="https://youtube.com/@studentunionfornationsun639?feature=shared" target='_blank'
           data-video-id="B6uuIHpFkuo" style={{color:"#003A69" }}
         >
           <span className="video-btn-icon">
