@@ -894,11 +894,11 @@ Promoting scientific knowledge and curiosity among students through science fair
 
 
 {events
-  .filter(content =>
-    moment(content.Timings).format('YYYY-MM-DD HH:mm:ss') >=
-    moment().format('YYYY-MM-DD HH:mm:ss')
-  )
-  .sort((a, b) => moment(a.Timings) - moment(b.Timings)) // Sort events by date
+  // .filter(content =>
+  //   moment(content.Timings).format('YYYY-MM-DD HH:mm:ss') >=
+  //   moment().format('YYYY-MM-DD HH:mm:ss')
+  // )
+  .sort((a, b) => moment(b.Timings) - moment(a.Timings)) // Sort events by date
   .map(content => (
     <div className="px-4 mt-0" key={content.id}>
       <div className="card-hover rounded mt-0">
