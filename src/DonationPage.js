@@ -264,7 +264,7 @@ export default function DonationPage() {
       Payment Details Form
     </h3>
     <p style={{ color: 'gray' }}>
-      Please fill out the form if you have made the payment.
+      Please fill out the form if you have made the payment and upload the screenshot.
     </p>
 
     <form className="m-0" onSubmit={DonationHandler}>
