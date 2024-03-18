@@ -442,7 +442,7 @@ export default function DonationPage() {
             <h4 className='mb-4'>FIND US ON</h4>
             <a
                     className="text"
-                    href="mailto:xyz@gmail.com"
+                    href="mailto:sunforindia@gmail.com"
                     style={{ textDecoration: "none", color: "white" }}
                 >
                     <img 
@@ -456,7 +456,7 @@ export default function DonationPage() {
     <br />
     <a
       className="text"
-      href="https://www.facebook.com/profile.php?id=100087419500577"
+      href="https://www.facebook.com/profile.php?id=100067494638158&paipv=0&eav=AfYHdBsP-bJtXF-vCoRgWmRRagR32W22PoQbXQTfhxQvOyk7eIn3paRtCaMYLETnDVA"
       style={{ textDecoration: "none", color: "white" }}
     >
       <img
@@ -470,7 +470,7 @@ export default function DonationPage() {
     <br />
     <a
       className="text"
-      href="https://www.instagram.com/ajayfromayejude/"
+      href="https://www.instagram.com/student_union_for_nation?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
       style={{ textDecoration: "none", color: "white" }}
     >
       <img
@@ -483,7 +483,7 @@ export default function DonationPage() {
     <br />
     <a
       className="text"
-      href="https://www.youtube.com/ayejude"
+      href="https://youtube.com/@studentunionfornationsun639?feature=shared"
       style={{ textDecoration: "none", color: "white" }}
     >
       <img
